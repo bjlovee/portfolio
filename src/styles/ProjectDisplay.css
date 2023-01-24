@@ -1,0 +1,42 @@
+.project {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.project h1 {
+  margin-top: 50px;
+  color: #FAEBC9;
+  font-size: 60px;
+  padding-left: center;
+}
+.project img {
+  width: 700px;
+  border-radius: 10px;
+}
+
+.project p {
+  font-size: 40px;
+  color: #FAEBC9;
+}
+
+.project svg {
+  font-size: 60px;
+  color: #FAEBC9;
+}
+
+h3 {
+    color: white;
+    font-size: 2rem;
+}
+
+ h4 {
+    color: #008bcf; 
+}
+
+.vist:hover{
+    color: rgb(13, 199, 62);
+}
