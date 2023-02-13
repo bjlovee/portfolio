@@ -28,11 +28,11 @@ function Home() {
             <h2>Hi, My Name is Brandon</h2>
             <div  className='prompt'>
                 <p>A software developer with a passion for learning and creating.</p>
-                < a href='https://github.com/bjlovee'>
+                < a href="https://github.com/bjlovee" target={'_blank'} rel="noreferrer">
           <FaGithub /> 
           </a>
          
-          < a href='https://www.linkedin.com/in/brandon-johnson-software-engineer/'>
+          < a href="https://www.linkedin.com/in/brandon-johnson-software-engineer/" target={'_blank'} rel="noreferrer">
           <BsLinkedin />
           </a>
             </div>

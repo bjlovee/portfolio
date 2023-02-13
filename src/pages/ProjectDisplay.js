@@ -12,15 +12,16 @@ function ProjectDisplay() {
   return (
     <div className='project'>
         <h1> {project.name} </h1>
-        <img src={project.image} />
+        <img src={project.image} onClick={project.url} />
         <p>
             <b>Skills:</b>{project.skills}
         </p>
         <h3> Visit Website </h3>
         <h4>
-            <a href='https://simple-kitchen.herokuapp.com/'>
+            <a href={project.url} target={"_blank"}>
             <SiHeroku />   
-            </a> 
+            </a>
+           
         </h4>
     </div>
   );
