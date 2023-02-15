@@ -9,6 +9,7 @@ function ProjectDisplay() {
     const {id} = useParams();
     const project = projectList[id]; 
 
+    const style = {color: "whitesmoke"}
   return (
     <div className='project'>
         <h1> {project.name} </h1>
@@ -17,12 +18,12 @@ function ProjectDisplay() {
             <b>Skills:</b>{project.skills}
         </p>
         <h3> Visit Website </h3>
-        <h4>
+        
             <a href={project.url} target={"_blank"}>
-            <SiHeroku />   
+            <SiHeroku style={style}/>   
             </a>
            
-        </h4>
+       
     </div>
   );
 }
