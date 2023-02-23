@@ -3,7 +3,7 @@ import {FaGithub} from "react-icons/fa"
 import {BsLinkedin} from "react-icons/bs"
 import {AiTwotoneMail} from "react-icons/ai"
 import "../styles/Footer.css"
-
+import {BsTwitter} from "react-icons/bs"
 
 
 
@@ -23,8 +23,9 @@ function Footer() {
           < a href="https://www.linkedin.com/in/brandon-johnson-software-engineer/" target={'_blank'} rel="noreferrer">
           <BsLinkedin/>
           </a>
-
-          
+          < a href="https://twitter.com/WarOnCode" target={'_blank'} rel="noreferrer">
+          <BsTwitter />
+          </a>
         </div>
         <p> &copy; 2023 BrandonJohhnson.com </p>
     </div>

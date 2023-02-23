@@ -20,6 +20,7 @@ import {SiHeroku} from "react-icons/si"
 import {SiPostman} from "react-icons/si"
 import {SiTypescript} from "react-icons/si"
 import {SiPython} from "react-icons/si"
+import {BsTwitter} from "react-icons/bs"
 
 function Home() {
   return (
@@ -34,6 +35,9 @@ function Home() {
          
           < a href="https://www.linkedin.com/in/brandon-johnson-software-engineer/" target={'_blank'} rel="noreferrer">
           <BsLinkedin />
+          </a>
+          < a href="https://twitter.com/WarOnCode" target={'_blank'} rel="noreferrer">
+          <BsTwitter />
           </a>
             </div>
          </div>
